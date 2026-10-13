@@ -1,3 +1,9 @@
+import Header from "./components/header";
+
 export default function App() {
-  return <div>Welcome to Edutect Landing page</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
